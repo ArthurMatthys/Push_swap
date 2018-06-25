@@ -6,7 +6,7 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/14 15:46:08 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 13:57:59 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 18:40:39 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -26,7 +26,7 @@ void	*conv_argv_tab(int argc, char **argv, t_opt *top)
 	while (i < argc)
 	{
 		j = ft_atoi(argv[i]);
-		if (j > INT_MAX || j < INT_MIN || is_in(j, tab, i))
+		if (j > INT_MAX || j < INT_MIN || is_in(j, tab, i - 1))
 		{
 			free(tab);
 			return (NULL);

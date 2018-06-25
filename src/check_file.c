@@ -6,7 +6,7 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/14 14:16:53 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 12:51:57 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 18:19:46 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -65,7 +65,7 @@ int		check_tab(int argc, char **argv)
 int		check_file(int argc, char **argv)
 {
 	if (argc == 1)
-		return (print_error());
+		return (0);
 	else if (argc == 2)
 		return (check_string(argv[1]));
 	else

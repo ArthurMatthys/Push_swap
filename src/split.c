@@ -6,7 +6,7 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/25 10:44:16 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 12:55:12 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 18:46:10 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -76,7 +76,7 @@ void	split_left(t_tab *taba, t_tab *tabb, t_parse parse)
 			i++;
 		}
 	}
-	while (parse.rot--)
+	while (parse.rot-- && (parse.len - parse.len / 2) != taba->len)
 		print_do(taba, tabb, "rra");
 }
 
@@ -101,7 +101,7 @@ void	split_right(t_tab *taba, t_tab *tabb, t_parse parse)
 			i++;
 		}
 	}
-	while (parse.rot--)
+	while (parse.rot-- && (parse.len - parse.len / 2 - 1) != tabb->len)
 		print_do(taba, tabb, "rrb");
 }
 
