@@ -6,14 +6,12 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/14 18:15:00 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 10:27:47 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 12:51:55 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include "checker.h"
-#include "libft/libft.h"
-#include "libft/get_next_line.h"
 
 void	init_fun(t_fun *fun)
 {

@@ -6,13 +6,12 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/23 17:43:32 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/23 18:07:30 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 12:51:09 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include "checker.h"
-#include "libft/libft.h"
 
 void	first_fun(t_tab *taba, t_tab *tabb, char *str)
 {

@@ -6,7 +6,7 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/14 15:46:36 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 10:55:57 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 12:54:29 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -14,10 +14,11 @@
 #ifndef CHECKER_H
 # define CHECKER_H
 
+# include "../libft/libft.h"
+# include "../libft/get_next_line.h"
 # include <unistd.h>
 # include <stdlib.h>
 # include <limits.h>
-# include <stdio.h>
 
 typedef struct		s_opt
 {

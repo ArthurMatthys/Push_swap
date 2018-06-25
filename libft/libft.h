@@ -6,7 +6,7 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/11/24 13:26:54 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/14 16:19:08 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 13:44:16 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -69,6 +69,7 @@ int					ft_isascii(int c);
 int					ft_strequ(char const *s1, char const *s2);
 int					ft_strnequ(char const *s1, char const *s2, size_t n);
 int					ft_memcmp(const void *s1, const void *s2, size_t n);
+int					is_in(int t, int *tab, size_t len);
 size_t				ft_strlcat(char *dst, const char *src, size_t n);
 size_t				ft_strlen(char *str);
 char				*ft_strcat(char *dest, const char *src);

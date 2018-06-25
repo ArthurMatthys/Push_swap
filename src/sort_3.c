@@ -6,13 +6,12 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/24 14:01:37 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 10:34:45 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 12:51:12 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include "checker.h"
-#include <stdio.h>
 
 void	sort_3(t_tab *taba, t_tab *tabb)
 {

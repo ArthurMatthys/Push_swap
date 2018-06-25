@@ -6,7 +6,7 @@
 #    By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+      #
 #                                                  #+#   #+    #+    #+#       #
 #    Created: 2018/06/07 14:26:55 by amatthys     #+#   ##    ##    #+#        #
-#    Updated: 2018/06/25 09:10:43 by amatthys    ###    #+. /#+    ###.fr      #
+#    Updated: 2018/06/25 13:46:40 by amatthys    ###    #+. /#+    ###.fr      #
 #                                                          /                   #
 #                                                         /                    #
 # **************************************************************************** #
@@ -89,7 +89,8 @@ SRC_NAME = 	ft_addmatrix.c \
 		ft_toupper.c \
 		ft_tracematrix.c \
 		get_next_line.c \
-		get_next_line_freaddon.c
+		get_next_line_freaddon.c \
+		is_in.c
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
 SRC = $(SRC_NAME)

@@ -6,12 +6,12 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/14 14:16:53 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 10:46:21 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/06/25 12:51:57 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
-#include "libft/libft.h"
+#include "checker.h"
 
 int		print_error(void)
 {
