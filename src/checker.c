@@ -6,7 +6,7 @@
 /*   By: amatthys <marvin@le-101.fr>                +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2018/06/14 18:15:00 by amatthys     #+#   ##    ##    #+#       */
-/*   Updated: 2018/06/25 18:26:08 by amatthys    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/07/12 09:22:32 by amatthys    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -93,7 +93,7 @@ int		main(int argc, char **argv)
 	taba.len = top.len;
 	if (!(opp_on_tab(&taba, &tabb, fun)))
 		;
-	else if (!(is_sort(&taba)))
+	else if (!(is_sort(&taba)) || tabb.len)
 		write(1, "KO\n", 3);
 	else
 		write(1, "OK\n", 3);
